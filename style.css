@@ -1,0 +1,30 @@
+.menu {
+  text-align: center;
+  list-style-type: none;
+  overflow: scroll;
+  background-color: #333;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 15px;
+  font-size: 20px;
+}
+
+.menu li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.headline {
+  text-align: center;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
