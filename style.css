@@ -1,3 +1,8 @@
+.header {
+  text-align: center;
+  color: blue;
+}
+
 .menu {
   text-align: center;
   list-style-type: none;
