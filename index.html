@@ -36,15 +36,21 @@
       </div>
     </section>
     <section>
-      <h3 class="header">Contact</h3>
-      <form class="contact">
-        Full Name
-        <input type="text" name="firstname" /><br/>
-        E-mail
-        <input type="text" name="lastname" /><br/>
-        Message 
-        <input type="text" name="lastname" />
+
+      <h1 class="header">Contact</h1>
+      <form id="display">
+        Name:<br />
+        <input type="text" name="name" value="" /><br />
+        Email:<br />
+        <input type="text" id="email" name="email" value="" /><br />
+        Message:<br />
+        <input type="text" name="message" value="" /><br />
+        <br />
+        <input type="button" id="submit" value="Submit" />
+
       </form>
+      <div id="alert"></div>
     </section>
+    <script src="javascript.js"></script>
   </body>
 </html>
