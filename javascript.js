@@ -38,4 +38,11 @@ function validate() {
   }
 }
 
+function changeVal() {
+  window.location.href = "#Kira";
+}
+
+function changeVal2() {
+  window.location.href = "#Ghassan";
+}
 
