@@ -111,3 +111,26 @@ textarea {
 img {
   border-radius: 20px;
 }
+
+.icon {
+  width: 50px;
+  length: 50px;
+  border-radius: 50px;
+  border-color: #00004d;
+  border-width: 3px;
+  border-style: double;
+}
+
+.tip {
+  background-color: yellow;
+  padding: 20px;
+  display: none;
+}
+
+span:hover + .tip {
+  display: block;
+}
+
+#footer {
+  height: : 20;
+}
