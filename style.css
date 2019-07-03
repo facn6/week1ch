@@ -56,9 +56,9 @@
 }
 
 .header2 {
-  <<<<<<<headfont-family: Arial, Helvetica, sans-serif;
-  =======list-style-type: none;
-  >>>>>>>31210e4af64a07bc05e0dfe7b26cdb2967a9d0c3text-align: center;
+  headfont-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  text-align: center;
   background: rgb(43, 0, 0);
   color: white;
   padding: 2px 0px;
