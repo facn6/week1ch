@@ -6,9 +6,11 @@ function validate() {
 
   if (validateEmail.test(email) == true) {
     document.getElementById("alert").innerHTML = "Thanks for your message!";
+    document.getElementById("alert").style.color = "green";
     document.getElementById("display").style.display = "none";
   } else {
     document.getElementById("alert").innerHTML =
       "Your email address is invalid!";
+    document.getElementById("alert").style.color = "red";
   }
 }

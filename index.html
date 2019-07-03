@@ -8,36 +8,43 @@
   </head>
   <body class="bg">
     <ul class="menu">
-      <li><a>About</a></li>
-      <li><a>Team</a></li>
-      <li><a>Contact</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Team">Team</a></li>
+      <li><a href="#Contact">Contact</a></li>
     </ul>
     <h2 class="headline">Portfolio Website <br /></h2>
-    <h5 class="description">FullStack development services - HTML CSS JavaScript 
+    <h5 class="description">
+      FullStack development services - HTML CSS JavaScript
     </h5>
 
     <section>
-      <h3 class="header">About</h3>
-      <p class="description">"The program trains groups of young men and women 
-        <br>from Arab society intensively, to acquire advanced programming 
-         skills and assist in their integration
-        <br> into Israeli high-tech companies."<br> - Kav Mashve</p>
+      <h3 class="header" id="About">About</h3>
+      <p class="description">
+        "The program trains groups of young men and women <br />from Arab
+        society intensively, to acquire advanced programming skills and assist
+        in their integration <br />
+        into Israeli high-tech companies."<br />
+        - Kav Mashve
+      </p>
     </section>
     <section class="box">
-      <h3 class="header">Team</h3>
-      <div>
-        <div>
-          Kira
-        </div>
-        <div>
-          Ghassan
-        </div>
+      <h3 class="header" id="Team">Team</h3>
+      <div class="gallery">
+        <figure class="photo">
+          <img id="first" src="Webp.net-resizeimage.jpg" alt="Kira" width="100%">
+          <figcaption class="btn" onclick="window.location.href = '#Kira';">Kira</figcaption>
+        </figure>
+        <figure class="photo">
+          <img id="second" src="Webp.net-resizeimage (2).jpg" alt="Ghassan" width="100%">
+          <figcaption class="btn" onclick="window.location.href = '#Ghassan';"> Ghassan</figcaption>
 
+
+        </figure>
       </div>
     </section>
-    <section>
 
-      <h1 class="header">Contact</h1>
+    <section>
+      <h1 class="header" id="Contact">Contact</h1>
       <form id="display">
         Name:<br />
         <input type="text" name="name" value="" /><br />
@@ -47,10 +54,31 @@
         <input type="text" name="message" value="" /><br />
         <br />
         <input type="button" id="submit" value="Submit" />
-
       </form>
       <div id="alert"></div>
     </section>
+    <div style="text-align: center;">
+        <h3 class="header" id="Kira">Kira</h3>
+<a href="https://www.codewars.com/users/kira-abl"><img class="icon" src="codewars.jpg" alt="My Codewars page"></a> <br>
+<a href="https://www.facebook.com/ablamunits.kira"><img class="icon" src="download.png" alt="My Facebook page"></a>
+<a href="mailto:kira.abl@gmail.com"><img class="icon" src="bw email.png" alt="Email me"></a> <br>
+<a href="https://twitter.com/ablamunits"><img class="icon" src="twitter.png" alt="My Twitter page"></a>
+<a href="https://www.freecodecamp.org/kira-abl"><img class="icon" src="freecodecamp.png" alt="My freeCodeCamp page"></a>
+<a href="https://www.linkedin.com/in/kira-ablamunits-392bb37b/"><img class="icon" src="linkedin.png" alt="My LinkedIn page"></a>
+<a href="https://github.com/kira-abl/kira-abl.github.io"><img class="icon" src="github.png" alt="My Github page"></a>
+   </div>
+        </div>
+        <div style="text-align: center;">
+
+          <h3 class="header" id="Ghassan">Ghassan</h3>
+          <a href="https://www.codewars.com/users/kira-abl"><img class="icon" src="codewars.jpg" alt="My Codewars page"></a> <br>
+          <a href="https://www.facebook.com/ablamunits.kira"><img class="icon" src="download.png" alt="My Facebook page"></a>
+          <a href="mailto:kira.abl@gmail.com"><img class="icon" src="bw email.png" alt="Email me"></a> <br>
+          <a href="https://twitter.com/ablamunits"><img class="icon" src="twitter.png" alt="My Twitter page"></a>
+          <a href="https://www.freecodecamp.org/kira-abl"><img class="icon" src="freecodecamp.png" alt="My freeCodeCamp page"></a>
+          <a href="https://www.linkedin.com/in/kira-ablamunits-392bb37b/"><img class="icon" src="linkedin.png" alt="My LinkedIn page"></a>
+          <a href="https://github.com/kira-abl/kira-abl.github.io"><img class="icon" src="github.png" alt="My Github page"></a>
+          </div>
     <script src="javascript.js"></script>
   </body>
 </html>
