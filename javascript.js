@@ -8,7 +8,7 @@ function validate() {
   var validateEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
   if ((validateEmail.test(email) == true) && (validateName.test(name) == true)){
-    document.getElementById("alert").innerHTML = "Your message has been sent, We will be in touch with you ASAP.";
+    document.getElementById("alert").innerHTML = "Your message has been sent successfully, we will be in touch with you ASAP.";
     document.getElementById("alert").style.color = "green";
     document.getElementById("display").style.display = "none";
   } 
@@ -27,13 +27,13 @@ function validate() {
 
   else if (validateName.test(name) == false){
     document.getElementById("alert").innerHTML =
-      "Your name is invalid! (check your ID buddy)";
+      "Your sure that's your name?";
     document.getElementById("alert").style.color = "red";
   }
 
   else {
     document.getElementById("alert").innerHTML =
-      "The system is down, feel free to send us an email on dontBother@weDontCheck.com";
+      "The system is down, feel free to send us an email on DontBother@NeverGonnaCheck.com";
     document.getElementById("alert").style.color = "red";
   }
 }
