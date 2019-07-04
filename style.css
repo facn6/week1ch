@@ -3,6 +3,10 @@
   background-image: url(https://wallpaperplay.com/walls/full/4/0/4/33404.jpg);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .menu {
   padding: 0;
   list-style-type: none;
@@ -57,7 +61,7 @@
 }
 
 .header2 {
-  headfont-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   list-style-type: none;
   text-align: center;
   background: rgb(43, 0, 0);
@@ -182,5 +186,4 @@ footer {
 noscript{
   color: rgb(255, 0, 0);
 }
-  color: white;
-}
+
